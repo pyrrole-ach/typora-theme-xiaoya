@@ -495,10 +495,6 @@ tt{
     padding:0 .2rem;
   }
 
-#write a p{
-    margin:0 .5rem;
-  }
-
 #write a:hover {
     color: var(--main-color-9);
     font-family:  'HelveticaN', arial, "Fangzheng MM", simsun, 'microsoft yahei';

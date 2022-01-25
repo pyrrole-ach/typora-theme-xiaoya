@@ -449,10 +449,6 @@ tt{
     padding:0 .2rem;
   }
 
-#write a p{
-    margin:0 .5rem;
-  }
-
 #write a:hover {
     color: var(--main-color-9);
     font-family:  'HelveticaN', arial, "Fangzheng MM", simsun, 'microsoft yahei';
@@ -470,7 +466,7 @@ tt{
 #write del {
     padding: 1px 2px;
     text-decoration: line-through #f0504a;
-    color:var(--blockquote-font-color)
+    color:var(--blockquote-font-color);
   }
 
 /* 加粗 */
