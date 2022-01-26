@@ -29,7 +29,7 @@
   }
 
 /* 字体引入 */
-/* 代码块字体 */
+/* 行内代码字体 */
 
 @font-face {
     font-family: 'LM Mono 10';
@@ -362,7 +362,7 @@ blockquote p:first-of-type::before{
     font-size: 3em;
     padding: 0 .5rem;
     color: var(--main-color-9);
-    font-family: Arial, serif;
+    font-family: Arial;
     line-height: 1em;
     font-weight: 700;
   }
