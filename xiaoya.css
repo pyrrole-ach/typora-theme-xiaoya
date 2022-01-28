@@ -54,7 +54,7 @@
   }
 
 /* 字体引入 */
-/* 行内代码字体 */
+/* 代码块字体 */
 
 @font-face {
     font-family: 'LM Mono 10';
@@ -579,17 +579,20 @@ tt{
 /* 代码块外框 */
 
 #write .md-fences {
-    border: 1px solid #7a7a7a;
-    -webkit-font-smoothing: initial;
-    margin: 2rem 0 !important;
-    padding: 3px 5px;
-    font-family: 'Roboto Mono', 'simsun', 'microsoft yahei' !important;
-    line-height: 1.55rem;
-    border-radius: 2px;
-    font-size: 0.9rem;
-    word-wrap: normal;
-    font-style: normal;
-  }
+  border: 1px solid #7a7a7a;
+  -webkit-font-smoothing: initial;
+  padding: 3px 5px;
+  font-family: 'Roboto Mono', 'simsun', 'microsoft yahei' !important;
+  line-height: 1.55rem;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  word-wrap: normal;
+  font-style: normal;
+}
+
+/* #write.enable-diagrams>[mermaid-type=gantt].md-fences:not(.md-focus) {
+  border: none !important;
+ } */
 
 .code-tooltip .ty-input:focus, input:focus {
     outline: 0;
