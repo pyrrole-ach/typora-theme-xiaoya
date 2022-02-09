@@ -66,7 +66,7 @@
 
 ### 文字样式代码块等
 
-![shadow](https://s2.loli.net/2022/01/25/NQeKp6GyrPXtbzj.png)
+![shadow](https://s2.loli.net/2022/02/09/YMQrXAkI2CVGmPj.png)
 
 ### 公式
 
@@ -160,3 +160,7 @@
 2022.01.28
 
 - 修复mermaid中gantt图不居中对齐的问题
+
+2022.02.09
+
+- 增加渐变字效果，使用***加粗斜体的Markdown语法即可出现此效果***
