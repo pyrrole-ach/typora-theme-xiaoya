@@ -523,6 +523,32 @@ tt{
     font-weight: 700;
   }
 
+/* 加粗斜体 这里为渐变字效果 */
+
+#write em strong{
+  background: -webkit-linear-gradient(left, rgb(218, 92, 92), var(--main-color-10));
+  background: -o-linear-gradient(right, rgb(218, 92, 92), var(--main-color-10));
+  background: -moz-linear-gradient(right, rgb(218, 92, 92), var(--main-color-10));
+  background: linear-gradient(to right, rgb(218, 92, 92), var(--main-color-10));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style:normal;
+}
+
+/* 月青的渐变字效果 */
+
+/* #write em strong{
+  background: -webkit-linear-gradient(left, var(--main-color-11), #416165);
+  background: -o-linear-gradient(right, var(--main-color-11), #416165);
+  background: -moz-linear-gradient(right, var(--main-color-11), #416165);
+  background: linear-gradient(to right, var(--main-color-11), #416165);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style:normal;
+} */
+
 /* 高亮 */
 
 #write mark {
